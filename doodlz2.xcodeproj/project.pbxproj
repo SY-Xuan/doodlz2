@@ -9,11 +9,26 @@
 /* Begin PBXBuildFile section */
 		B08DDCA21DF2F2630041B2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCA11DF2F2630041B2F7 /* AppDelegate.swift */; };
 		B08DDCA41DF2F2630041B2F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCA31DF2F2630041B2F7 /* ViewController.swift */; };
-		B08DDCA71DF2F2630041B2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08DDCA51DF2F2630041B2F7 /* Main.storyboard */; };
 		B08DDCA91DF2F2630041B2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08DDCA81DF2F2630041B2F7 /* Assets.xcassets */; };
 		B08DDCAC1DF2F2630041B2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08DDCAA1DF2F2630041B2F7 /* LaunchScreen.storyboard */; };
 		B08DDCB71DF2F2630041B2F7 /* doodlz2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCB61DF2F2630041B2F7 /* doodlz2Tests.swift */; };
 		B08DDCC21DF2F2630041B2F7 /* doodlz2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCC11DF2F2630041B2F7 /* doodlz2UITests.swift */; };
+		B08DDCD11DF2F37A0041B2F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCD01DF2F37A0041B2F7 /* Security.framework */; };
+		B08DDCD31DF2F39B0041B2F7 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCD21DF2F39B0041B2F7 /* libiconv.tbd */; };
+		B08DDCD51DF2F3A80041B2F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCD41DF2F3A80041B2F7 /* SystemConfiguration.framework */; };
+		B08DDCD71DF2F3B40041B2F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCD61DF2F3B40041B2F7 /* CoreGraphics.framework */; };
+		B08DDCD91DF2F3C40041B2F7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCD81DF2F3C40041B2F7 /* libsqlite3.tbd */; };
+		B08DDCDB1DF2F3D40041B2F7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCDA1DF2F3D40041B2F7 /* CoreTelephony.framework */; };
+		B08DDCDD1DF2F3E50041B2F7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCDC1DF2F3E50041B2F7 /* libstdc++.tbd */; };
+		B08DDCDF1DF2F3EE0041B2F7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCDE1DF2F3EE0041B2F7 /* libz.tbd */; };
+		B08DDCE11DF2F4240041B2F7 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08DDCE01DF2F4240041B2F7 /* TencentOpenAPI.framework */; };
+		B08DDCE31DF2F4570041B2F7 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B08DDCE21DF2F4570041B2F7 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		B08DDCE91DF2F54F0041B2F7 /* DoodleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCE51DF2F54F0041B2F7 /* DoodleView.swift */; };
+		B08DDCEA1DF2F54F0041B2F7 /* ColorViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCE61DF2F54F0041B2F7 /* ColorViewViewController.swift */; };
+		B08DDCEB1DF2F54F0041B2F7 /* StrokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCE71DF2F54F0041B2F7 /* StrokeViewController.swift */; };
+		B08DDCEC1DF2F54F0041B2F7 /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DDCE81DF2F54F0041B2F7 /* Squiggle.swift */; };
+		B08DDCEE1DF2F5950041B2F7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B08DDCED1DF2F5950041B2F7 /* icon.png */; };
+		B08DDCF01DF2F7040041B2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08DDCEF1DF2F7040041B2F7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +52,6 @@
 		B08DDC9E1DF2F2630041B2F7 /* doodlz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doodlz2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08DDCA11DF2F2630041B2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B08DDCA31DF2F2630041B2F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B08DDCA61DF2F2630041B2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08DDCA81DF2F2630041B2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B08DDCAB1DF2F2630041B2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B08DDCAD1DF2F2630041B2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,23 @@
 		B08DDCBD1DF2F2630041B2F7 /* doodlz2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doodlz2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08DDCC11DF2F2630041B2F7 /* doodlz2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doodlz2UITests.swift; sourceTree = "<group>"; };
 		B08DDCC31DF2F2630041B2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08DDCD01DF2F37A0041B2F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B08DDCD21DF2F39B0041B2F7 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		B08DDCD41DF2F3A80041B2F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B08DDCD61DF2F3B40041B2F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B08DDCD81DF2F3C40041B2F7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B08DDCDA1DF2F3D40041B2F7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B08DDCDC1DF2F3E50041B2F7 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		B08DDCDE1DF2F3EE0041B2F7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B08DDCE01DF2F4240041B2F7 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		B08DDCE21DF2F4570041B2F7 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		B08DDCE41DF2F5330041B2F7 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		B08DDCE51DF2F54F0041B2F7 /* DoodleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoodleView.swift; sourceTree = "<group>"; };
+		B08DDCE61DF2F54F0041B2F7 /* ColorViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewViewController.swift; sourceTree = "<group>"; };
+		B08DDCE71DF2F54F0041B2F7 /* StrokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeViewController.swift; sourceTree = "<group>"; };
+		B08DDCE81DF2F54F0041B2F7 /* Squiggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
+		B08DDCED1DF2F5950041B2F7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B08DDCEF1DF2F7040041B2F7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08DDCDF1DF2F3EE0041B2F7 /* libz.tbd in Frameworks */,
+				B08DDCE11DF2F4240041B2F7 /* TencentOpenAPI.framework in Frameworks */,
+				B08DDCDD1DF2F3E50041B2F7 /* libstdc++.tbd in Frameworks */,
+				B08DDCDB1DF2F3D40041B2F7 /* CoreTelephony.framework in Frameworks */,
+				B08DDCD91DF2F3C40041B2F7 /* libsqlite3.tbd in Frameworks */,
+				B08DDCD71DF2F3B40041B2F7 /* CoreGraphics.framework in Frameworks */,
+				B08DDCD51DF2F3A80041B2F7 /* SystemConfiguration.framework in Frameworks */,
+				B08DDCD31DF2F39B0041B2F7 /* libiconv.tbd in Frameworks */,
+				B08DDCD11DF2F37A0041B2F7 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +117,12 @@
 		B08DDC951DF2F2630041B2F7 = {
 			isa = PBXGroup;
 			children = (
+				B08DDCE21DF2F4570041B2F7 /* TencentOpenApi_IOS_Bundle.bundle */,
 				B08DDCA01DF2F2630041B2F7 /* doodlz2 */,
 				B08DDCB51DF2F2630041B2F7 /* doodlz2Tests */,
 				B08DDCC01DF2F2630041B2F7 /* doodlz2UITests */,
 				B08DDC9F1DF2F2630041B2F7 /* Products */,
+				B08DDCCF1DF2F37A0041B2F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +139,15 @@
 		B08DDCA01DF2F2630041B2F7 /* doodlz2 */ = {
 			isa = PBXGroup;
 			children = (
+				B08DDCE41DF2F5330041B2F7 /* bridge.h */,
 				B08DDCA11DF2F2630041B2F7 /* AppDelegate.swift */,
+				B08DDCE51DF2F54F0041B2F7 /* DoodleView.swift */,
+				B08DDCE61DF2F54F0041B2F7 /* ColorViewViewController.swift */,
+				B08DDCE71DF2F54F0041B2F7 /* StrokeViewController.swift */,
+				B08DDCE81DF2F54F0041B2F7 /* Squiggle.swift */,
+				B08DDCED1DF2F5950041B2F7 /* icon.png */,
+				B08DDCEF1DF2F7040041B2F7 /* Main.storyboard */,
 				B08DDCA31DF2F2630041B2F7 /* ViewController.swift */,
-				B08DDCA51DF2F2630041B2F7 /* Main.storyboard */,
 				B08DDCA81DF2F2630041B2F7 /* Assets.xcassets */,
 				B08DDCAA1DF2F2630041B2F7 /* LaunchScreen.storyboard */,
 				B08DDCAD1DF2F2630041B2F7 /* Info.plist */,
@@ -123,6 +171,22 @@
 				B08DDCC31DF2F2630041B2F7 /* Info.plist */,
 			);
 			path = doodlz2UITests;
+			sourceTree = "<group>";
+		};
+		B08DDCCF1DF2F37A0041B2F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B08DDCE01DF2F4240041B2F7 /* TencentOpenAPI.framework */,
+				B08DDCDE1DF2F3EE0041B2F7 /* libz.tbd */,
+				B08DDCDC1DF2F3E50041B2F7 /* libstdc++.tbd */,
+				B08DDCDA1DF2F3D40041B2F7 /* CoreTelephony.framework */,
+				B08DDCD81DF2F3C40041B2F7 /* libsqlite3.tbd */,
+				B08DDCD61DF2F3B40041B2F7 /* CoreGraphics.framework */,
+				B08DDCD41DF2F3A80041B2F7 /* SystemConfiguration.framework */,
+				B08DDCD21DF2F39B0041B2F7 /* libiconv.tbd */,
+				B08DDCD01DF2F37A0041B2F7 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +257,7 @@
 				TargetAttributes = {
 					B08DDC9D1DF2F2630041B2F7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7PY3375THJ;
 						ProvisioningStyle = Automatic;
 					};
 					B08DDCB11DF2F2630041B2F7 = {
@@ -232,9 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08DDCE31DF2F4570041B2F7 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				B08DDCF01DF2F7040041B2F7 /* Main.storyboard in Resources */,
+				B08DDCEE1DF2F5950041B2F7 /* icon.png in Resources */,
 				B08DDCAC1DF2F2630041B2F7 /* LaunchScreen.storyboard in Resources */,
 				B08DDCA91DF2F2630041B2F7 /* Assets.xcassets in Resources */,
-				B08DDCA71DF2F2630041B2F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08DDCEC1DF2F54F0041B2F7 /* Squiggle.swift in Sources */,
 				B08DDCA41DF2F2630041B2F7 /* ViewController.swift in Sources */,
+				B08DDCEB1DF2F54F0041B2F7 /* StrokeViewController.swift in Sources */,
+				B08DDCEA1DF2F54F0041B2F7 /* ColorViewViewController.swift in Sources */,
+				B08DDCE91DF2F54F0041B2F7 /* DoodleView.swift in Sources */,
 				B08DDCA21DF2F2630041B2F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +367,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B08DDCA51DF2F2630041B2F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B08DDCA61DF2F2630041B2F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B08DDCAA1DF2F2630041B2F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,10 +475,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PY3375THJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = doodlz2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.doodlz2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = doodlz2/bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +494,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PY3375THJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = doodlz2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.doodlz2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = doodlz2/bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
